@@ -1,5 +1,11 @@
+html{
+	background-color: #F0F0F0;
+}
+
 h1{
 	color: #B3465D;
+    border-bottom: thin solid #ccc;
+    padding-bottom: 1em;
 }
 
 h2{
@@ -10,18 +16,18 @@ img{
 	width: 100%;
 }
 
-html{
-	background-color: #F0F0F0;
-}
-
 .main{
-	width: 80%;
-	margin-left: 9%;
-	margin-right: 10%;
-	padding-left: 2%;
+	width: 75%;
+	margin: 10%;
+	padding: 2%;
 	background-color: #FFF;
 	border-radius: 10px;
 	box-shadow: .5px 1px 1px 1.5px #ccc;
+}
+
+figcaption{
+	border-top: thin solid #ccc;
+	
 }
 
 dl{
