@@ -1,0 +1,45 @@
+h1{
+	color: #B3465D;
+}
+
+h2{
+	color: #B3465D;
+}
+
+img{
+	width: 100%;
+}
+
+html{
+	background-color: #F0F0F0;
+}
+
+.main{
+	width: 80%;
+	margin-left: 9%;
+	margin-right: 10%;
+	padding-left: 2%;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: .5px 1px 1px 1.5px #ccc;
+}
+
+dl{
+	/* 
+	Overflow hidden is a clearfix
+	It reminds the <dl> to wrap around its floated children
+	*/
+	overflow:hidden;
+}
+
+dt{
+	float: left;
+	clear: left;
+	width: 8em;
+}
+
+dd{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
