@@ -1,5 +1,6 @@
 html{
-	background-color: #F0F0F0;
+	background-color: #EDEDED;
+	font-family: "Helvetica", Arial, Sans-Serif;
 }
 
 h1{
@@ -9,6 +10,7 @@ h1{
 }
 
 h2{
+	padding-top: 1rem;
 	color: #B3465D;
 }
 
@@ -26,8 +28,12 @@ img{
 }
 
 figcaption{
-	border-top: thin solid #ccc;
-	
+	font-size: 15px;
+	color: #949494;
+	background-color: #FAFAFA;
+	border: thin solid #ddd;
+	margin: -3%;
+	padding: 1rem;
 }
 
 dl{
@@ -36,6 +42,26 @@ dl{
 	It reminds the <dl> to wrap around its floated children
 	*/
 	overflow:hidden;
+}
+
+blockquote{
+	margin: -3%;
+	padding: 1rem;
+	background-color: #FAFAFA;
+	border: thin solid #ddd;
+	overflow: hidden;
+}
+
+footer{
+	float: right;
+	padding-bottom: 1rem;
+}
+
+.nutrition{
+	background-color: #FAFAFA;
+	border: thin solid #ddd;
+	margin: -3%;
+	padding-left: 1rem;
 }
 
 dt{
@@ -48,4 +74,38 @@ dd{
 	float: left;
 	margin: 0;
 	padding: 0;
+}
+
+ul{
+	padding-top: 1rem;
+	margin-left: -10%;
+	overflow: hidden;
+}
+
+.hidden{
+	display: none;
+}
+
+ul li{
+	background-color: #EBCED7;
+	color: #B3465D;
+	border: thin solid #B3465D;
+	border-radius: 20px;
+	list-style: none; 
+	float: left;
+	padding: 2%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+a:link{
+	color: #B3465D;
+}
+
+a:visited{
+	color: #B3465D;
+}
+
+a:active{
+	color: #B3465D;
 }
